@@ -1,7 +1,4 @@
-@font-face{
-font-family:'Agavantgardecyr';
-font-style:normal;
-font-weight:400;
-src: local('Agavantgardecyr'), local('Agavantgardecyr'),
-url(http://uviar.github.io/agavantgardecyr.woff) format('woff');
+@font-face {
+font-family: 'agavantgardecyr-book';
+src: url(./agavantgardecyr-book.woff) format('woff');
 }
