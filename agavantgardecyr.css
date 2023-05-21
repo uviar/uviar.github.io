@@ -2,6 +2,6 @@
 font-family:'Agavantgardecyr';
 font-style:normal;
 font-weight:400;
-src: local('AGAvantGardeCyr Book'), local('AGAvantGardeCyr-Book'),
+src: local('Agavantgardecyr'), local('Agavantgardecyr'),
 url(http://uviar.github.io/agavantgardecyr.woff) format('woff');
 }
