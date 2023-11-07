@@ -1,0 +1,10 @@
+@font-face {
+font-display: swap;
+font-family: Nissan;
+font-style: "normal";
+font-weight: 400;
+src: url(https://uviar.github.io/fonts/nissan/Nissan-400.woff2)
+   format("woff2"),
+ url(https://uviar.github.io/fonts/nissan/Nissan-400.woff)
+   format("woff");
+}
