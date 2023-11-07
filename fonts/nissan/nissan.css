@@ -3,8 +3,8 @@ font-display: swap;
 font-family: Nissan;
 font-style: "normal";
 font-weight: 400;
-src: url(https://uviar.github.io/fonts/nissan/Nissan-400.woff2)
+src: url(https://cdn.jsdelivr.net/gh/uviar/uviar.github.io/fonts/nissan/Nissan-400.woff2)
    format("woff2"),
- url(https://uviar.github.io/fonts/nissan/Nissan-400.woff)
+ url(https://cdn.jsdelivr.net/gh/uviar/uviar.github.io/fonts/nissan/Nissan-400.woff)
    format("woff");
 }
