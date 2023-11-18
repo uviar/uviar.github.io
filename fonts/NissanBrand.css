@@ -1,0 +1,10 @@
+@font-face {
+font-display: swap;
+font-family: Nissan Brand;
+font-style: "normal";
+font-weight: 400;
+src: url(https://cdn.jsdelivr.net/gh/uviar/uviar.github.io/fonts/NissanBrand-Regular.woff2)
+   format("woff2"),
+ url(https://cdn.jsdelivr.net/gh/uviar/uviar.github.io/fonts/NissanBrand-Regular.woff)
+   format("woff");
+}
