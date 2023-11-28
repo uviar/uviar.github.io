@@ -1,8 +1,7 @@
 @font-face{
 font-family:'Nexa';
 src: url('nexa-regular.woff2') format('woff2'),
-url('nexa-regular.woff') format('woff'),
-url('nexa-regular.ttf') format('truetype');
+url('nexa-regular.woff') format('woff');
 font-weight:normal;
 font-style:normal;
 font-display:swap;
