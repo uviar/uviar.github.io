@@ -22,9 +22,9 @@ var quotes = [
 ];
 
 function randomQuoteTweet() {
-var randomButton = document.querySelector("button.random-quote");
-var quoteTextEl = document.querySelector(".quote-text");
-var authorEl = document.querySelector(".quote-author");
+var randomButton = document.querySelector("button.random-latin");
+var quoteTextEl = document.querySelector(".quote-latin");
+var authorEl = document.querySelector(".latin-author");
 
 newRandomQuote(quotes, quoteTextEl, authorEl);
 
