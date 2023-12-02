@@ -1,14 +1,13 @@
 var quotes = [
-{author:'',quote:'A priori - Независимо от опыта.'},
-{author:'',quote:'Carpe diem - Лови момент.'},
-{author:'',quote:'Cogito ergo sum - Я мыслю, следовательно существую.'},
-{author:'',quote:'Dictum-factum - Сказано сделано.'},
-{author:'',quote:'Per aspera ad astra - Через тернии к звездам.'},
+{author:'',quote:'Carpe diem – Лови момент.'},
+{author:'',quote:'Cogito ergo sum – Я мыслю, следовательно существую.'},
+{author:'',quote:'Dictum – factum – Сказано сделано.'},
+{author:'',quote:'Per aspera ad astra – Через тернии к звездам.'},
 {author:'',quote:'A posteriori - Исходя из опыта.'},
 {author:'',quote:'A potentia ad actum - От возможного к действительному.'},
 {author:'',quote:'Abstractum pro concreto - Общее вместо частного.'},
 {author:'',quote:'A prima facie - На первый взгляд.'},
-{author:'',quote:'Ab initio nullum, semper nullum - Из ничего ничего и не выйдет.'},
+{author:'',quote:'Ab initio nullum, semper nullum - Из ничего, ничего и не выйдет.'},
 {author:'',quote:'Ad acta - К делу.'},
 {author:'',quote:'Ad hoste maligno libera nos, Domine - Избави нас от лукавого, Боже.'},
 {author:'',quote:'Aequam memento rebus in arduis servare mentem - Помни, старайся сохранять присутствие духа в трудных ситуациях.'},
@@ -32,16 +31,3 @@ newRandomQuote(quotes, quoteTextEl, authorEl);
 randomButton.addEventListener("click", function() {
 newRandomQuote(quotes, quoteTextEl, authorEl);
 });
-
-}
-
-function newRandomQuote(quoteArray, quoteElement, authorElement) {
-var newQuote = quoteArray[randomGen(0, quotes.length - 1)];
-quoteElement.innerText = newQuote.quote;
-authorElement.innerText = "-- " + newQuote.author;
-}
-
-function randomGen(min, max) {
-return Math.floor(Math.random() * (max - min + 1) + min);
-}
-randomQuoteTweet();
