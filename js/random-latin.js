@@ -1,4 +1,4 @@
-var quotes = [
+var quotes-latin = [
 {author:'',quote:'Carpe diem – Лови момент.'},
 {author:'',quote:'Cogito ergo sum – Я мыслю, следовательно существую.'},
 {author:'',quote:'Dictum – factum – Сказано сделано.'},
@@ -22,12 +22,25 @@ var quotes = [
 ];
 
 function randomQuoteTweet() {
-var randomButton = document.querySelector("button.random-latin");
-var quoteTextEl = document.querySelector(".quote-latin");
-var authorEl = document.querySelector(".latin-author");
+var randomButton = document.querySelector("button.random-quote");
+var quoteTextA = document.querySelector(".quote-text");
+var authorA = document.querySelector(".quote-author");
 
-newRandomQuote(quotes, quoteTextEl, authorEl);
+newRandomQuote(quotes-latin, quoteTextA, authorA);
 
 randomButton.addEventListener("click", function() {
-newRandomQuote(quotes, quoteTextEl, authorEl);
+newRandomQuote(quotes-latin, quoteTextA, authorA);
 });
+
+}
+
+function newRandomQuote(quoteArray, quoteElement, authorElement) {
+var newQuote = quoteArray[randomGen(0, quotes.length - 1)];
+quoteElement.innerText = newQuote.quote;
+authorElement.innerText = "-- " + newQuote.author;
+}
+
+function randomGen(min, max) {
+return Math.floor(Math.random() * (max - min + 1) + min);
+}
+randomQuoteTweet();
