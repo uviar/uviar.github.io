@@ -1,6 +1,6 @@
 /* cyrillic */
-@font-face
-{font-family:'Lato';
+@font-face{
+font-family:'Lato';
 font-style:normal;
 font-weight:400;
 src: url('Lato-Hairline.woff2') format('woff2'),
