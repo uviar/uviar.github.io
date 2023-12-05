@@ -7,7 +7,7 @@ var	defaults = {
 boxClass:               "",
 speed:                  400,
 imgPadding:             0,
-overlayOpacity:         "0.7",
+overlayOpacity:         "0.75",
 overlayColor:           "",
 viewTitle:              false,
 titleColor:             "",
