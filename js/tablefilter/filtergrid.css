@@ -18,7 +18,7 @@ table.TF td{padding:5px 5px 5px 5px;border-bottom:1px solid var(--jt-border-ligh
 height:30px;
 background-color:var(--jt-bg-light);
 }
-.fltrow td, .fltrow th{padding:2px !important} 
+.fltrow td,.fltrow th{padding:2px !important} 
 .btnflt{/* button appearance */
 font-size:11px;vertical-align:middle;
 margin:0 2px 0 2px;padding:0 1px 0 1px;	
@@ -30,8 +30,12 @@ background:transparent url(TF_Themes/btn_filter.png) center center no-repeat !im
 }
 .flt{/* filter (input) appearance */
 background-color:var(--jt-header-bg);font-size:15px;
-border:1px solid var(--jt-border-light);
+border:1px solid #05c44c;
 margin:0;width:100%;vertical-align:middle;
+border-radius:10px;
+text-align:center;
+height:30px;
+margin-top:6px;
 }
 select.flt{/* select filter */
 background-color:#fff;border:1px solid #ccc;
@@ -122,7 +126,7 @@ border:0 !important;font-weight:bold;font-size:11px;
 .previousPage{background:transparent url(TF_Themes/btn_previous_page.gif) center center no-repeat !important}
 .firstPage{background:transparent url(TF_Themes/btn_first_page.gif) center center no-repeat !important}
 .lastPage{background:transparent url(TF_Themes/btn_last_page.gif) center center no-repeat !important}
-.nextPage:hover, .previousPage:hover, .firstPage:hover, .lastPage:hover{background-color:#CAD1D6 !important}
+.nextPage:hover,.previousPage:hover,.firstPage:hover,.lastPage:hover{background-color:#CAD1D6 !important}
 span.nbpg{padding:0 5px 0 0}/*paging nb pages*/
 div.inf a{color:#333;text-decoration:none;font-weight:bold}/*link appearence in .inf div*/
 div.inf a:hover{text-decoration:underline}/*link appearence in .inf div*/
@@ -283,14 +287,14 @@ select[multiple="multiple"].ezSelectEditor{height:35px}
 /* Command type editor */
 
 .ezCommandEditor{margin:2px}
-.ezCommandEditor button, .ezCommandEditor input[type="button"]{
+.ezCommandEditor button,.ezCommandEditor input[type="button"]{
 font-size:11px;	min-height:22px;
 margin:1px;padding:3px;
 border:1px solid #ccc;background:#fff;
 border-radius:4px 4px 4px 4px;
 -moz-border-radius:4px 4px 4px 4px;
 }
-.ezCommandEditor button:hover, .ezCommandEditor input[type="button"]:hover{border:1px solid #999}
+.ezCommandEditor button:hover,.ezCommandEditor input[type="button"]:hover{border:1px solid #999}
 .ezCommandEditor img{border:0;vertical-align:middle;margin:2px}
 
 /* Utils */
