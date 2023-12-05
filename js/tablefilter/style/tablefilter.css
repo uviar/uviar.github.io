@@ -126,3 +126,6 @@ table.TF.sticky th{position:sticky;top:-1px}
 .mdiv:empty:after{content:"\00A0"}
 .rdiv{float:right;width:30%;position:inherit;text-align:right}
 .rdiv:empty:after{content:"\00A0"}
+table{caption-side:top !important}
+caption{padding-bottom:unset}
+.no-results{width:100% !important}
