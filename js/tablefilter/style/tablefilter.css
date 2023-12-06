@@ -1,4 +1,4 @@
-.activeHeader{background:#66afe9 !important;color:var(--bs-body-color) !important}
+.activeHeader{background:#7ED3F8 !important;color:#444}
 .activeCell{background:rgba(0,0,0,0.075)}
 .even{background:#fff}
 .odd{background:#f9f9f9}
@@ -129,3 +129,4 @@ table.TF.sticky th{position:sticky;top:-1px}
 table{caption-side:top !important}
 .no-results{width:100% !important}
 #HTML15{display:none !important}
+#post-body li,blockquote{font-size:14px !important}
