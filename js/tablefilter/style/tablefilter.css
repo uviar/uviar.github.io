@@ -81,7 +81,7 @@ div.helpFooter{margin:10px 0 0 0}
 div.helpFooter h4{margin:2px 2px 2px 2px;color:var(--bs-body-color)}
 span.keyword{font-weight:700;border-bottom:1px dotted #aaa}
 .loader{position:absolute;padding:.5em .7em;margin:10em 0 0 3em;width:auto;z-index:1000;font-weight:400;background:#ff0000;vertical-align:middle;border-radius:4px;color:#fff}
-.no-results{display:none;color:var(--bs-body-color);margin:0;padding:1em 0;text-align:center;max-height:5em;background:#f4f4f4}
+.no-results{display:none;color:#333;margin:0;padding:1em 0;text-align:center;max-height:5em;background:var(--jt-border-light)}
 select.pgSlc{height:35px;margin:0;border:1px solid #f4f4f4;background:var(--bs-body-bg);vertical-align:middle}
 select.pgSlc:focus{border-color:#66afe9;outline:0 none;-webkit-box-shadow:0 1px 1px rgba(0,0,0,0.075) inset,0 0 8px rgba(102,175,233,0.6);-moz-box-shadow:0 1px 1px rgba(0,0,0,0.075) inset,0 0 8px rgba(102,175,233,0.6);box-shadow:0 1px 1px rgba(0,0,0,0.075) inset,0 0 8px rgba(102,175,233,0.6)}
 input.pgNbInp{height:35px;margin:0;border:1px solid #f4f4f4;background:var(--bs-body-bg);width:35px}
