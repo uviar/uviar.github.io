@@ -1,4 +1,4 @@
-.activeHeader{background:#7ED3F8 !important;color:#444}
+.activeHeader{background:#4490F3 !important;color:#fff}
 .activeCell{background:rgba(0,0,0,0.075)}
 .even{background:#fff}
 .odd{background:#f9f9f9}
@@ -111,7 +111,7 @@ div.tot span{font-weight:500}
 div.status{float:left;overflow:hidden;min-width:120px;height:100%;margin:0;padding:.5em}
 div.status span{font-size:inherit}
 table.TF{font-family:inherit;border-spacing:0;border:0}
-table.TF th{height:35px;margin:0;background:var(--jt-bg-light);border:1px solid var(--jt-border-light);padding:.1em .7em;color:#333)}
+table.TF th{height:35px;margin:0;background:var(--jt-bg-light);border:1px solid var(--jt-border-light);padding:.1em .7em;color:var(--bs-body-color)}
 table.TF th:last-child{border-right:1px solid var(--jt-border-light)}
 table.TF td{margin:0;padding:.5em .7em;border-bottom:1px solid var(--jt-border-light);text-overflow:ellipsis}
 table.TF.resp{display:block;overflow-x:auto;overflow-y:hidden}
