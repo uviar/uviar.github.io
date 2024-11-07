@@ -69,7 +69,7 @@ div.grd_tblCont table td{padding:.5em .7em;border-bottom:1px solid #99bbe8;overf
 .grd_inf div.tot{border:0 !important}
 .helpBtn{display:inline-block;height:27px;margin:0;padding:8px 15px 0 15px;vertical-align:top}
 .helpBtn:hover{background:var(--jt-border-light)}
-div.helpCont{position:relative;background:var(--bs-body-bg);position:absolute;display:none;width:300px;padding:10px;margin:45px 0 0 -150px;border:1px solid var(--jt-border-light);line-height:20px;font-size:inherit;color:var(--bs-body-color);background:var(--bs-body-bg);text-align:left;z-index:1000}
+div.helpCont{position:absolute;width:300px;padding:10px 10px 0 10px;margin:40px 0 0 -131px;border:1px solid var(--jt-border-light);line-height:20px;font-size:inherit;color:var(--bs-body-color);background:var(--bs-body-bg);text-align:left;z-index:1000}
 div.helpCont:after,div.helpCont:before{bottom:100%;left:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none}
 div.helpCont:after{border-color:rgba(255,255,255,0);border-bottom-color:#fff;border-width:10px;margin-left:-10px}
 div.helpCont:before{border-color:rgba(255,255,255,0);border-bottom-color:var(--jt-border-light);border-width:12px;margin-left:-12px}
