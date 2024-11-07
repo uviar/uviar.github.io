@@ -13,7 +13,7 @@
 .ezModifiedCell{background:transparent url("themes/bg_mod_cell.png") 0 0 no-repeat}
 select[multiple="multiple"].ezSelectEditor{height:35px}
 .ezCommandEditor{margin:2px}
-.ezCommandEditor button,.ezCommandEditor input[type="button"]{min-height:22px;margin:1px;padding:3px;border:1px solid var(--jt-border-light);background:var(--bs-body-bg);border-radius:4px 4px 4px 4px;-moz-border-radius:4px 4px 4px 4px}
+.ezCommandEditor button,.ezCommandEditor input[type="button"]{min-height:22px;margin:1px;padding:3px;border:1px solid var(--jt-border-light);background:var(--bs-body-bg);border-radius:4px;-moz-border-radius:4px}
 .ezCommandEditor button:hover,.ezCommandEditor input[type="button"]:hover{border:1px solid #999}
 .ezCommandEditor img{border:0;vertical-align:middle;margin:2px}
 .ezOpacity{opacity:.6}
