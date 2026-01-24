@@ -1,0 +1,30 @@
+[Adblock Plus 2.0]
+! Version: 20260124
+! Title: Adblock Ad
+! Last modified: 24 Jan 2026 01:00 UTC
+! Homepage: https://cdn.jsdelivr.net/gh/uviar/uviar.github.io/ad/ad.txt
+!
+! Specific block
+!
+||ads.youtube.com^
+||analytics.google.com^
+||click.googleanalytics.com^
+||google-analytics.com^
+||ssl.google-analytics.com^
+||pagead2.googlesyndication.com^
+||pagead2.googleadservices.com^
+||adservice.google.com^
+||afs.googlesyndication.com^
+||googletagmanager.com^
+||googletagservices.com^
+||$font
+||http$font
+||https$font
+|http$font
+||extmaps-api.yandex.net^
+||appmetrica.yandex.ru^
+||adfstat.yandex.ru^
+||metrika.yandex.ru^
+||offerwall.yandex.net^
+||adfox.yandex.ru^
+||www.blogger.com^
