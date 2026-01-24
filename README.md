@@ -1,6 +1,6 @@
 # uviar.github.io
 
---- Files ---
+🌐 Files
 
 js/random-phrase-anecdots.js - Generation of a random quote (phrase) from a list of anecdots (jokes).
 
@@ -10,7 +10,7 @@ js/shrbtn-min.js - Share URL. Publication of links in social networks to the pag
 
 ad/ad.txt - My mini Adblock Plus filter list.
 
---- CDN Example ---
+💡 CDN Example
 
 https://cdn.jsdelivr.net/gh/uviar/uviar.github.io/js/random-phrase-anecdots.js
 
