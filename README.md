@@ -1,6 +1,6 @@
 # uviar.github.io
 
---- JS ---
+--- Files ---
 
 js/random-phrase-anecdots.js - Generation of a random quote (phrase) from a list of anecdots (jokes).
 
