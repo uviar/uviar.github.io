@@ -10,4 +10,4 @@ js/shrbtn-min.js --- Share URL. Publication of links in social networks to the p
 
 --- CDN ---
 
-https://cdn.jsdelivr.net/gh/uviar/uviar.github.io/js/random-phrase-anecdots.js
+Example: https://cdn.jsdelivr.net/gh/uviar/uviar.github.io/js/random-phrase-anecdots.js
